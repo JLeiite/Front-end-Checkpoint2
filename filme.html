@@ -16,13 +16,15 @@
     <header>
         <div class="navbar">
             <img src="./img/LogoDH.png" href="https://www.digitalhouse.com/">
-            <nav>
-                <a href="https://renanlealdosanjos.github.io/Front-Checkpoint2/" target="_blank">Home</a>
-                <a href="#items">Itens</a>
-                <a href="#sobre">Sobre nós</a>
-                <a href="login.html">Login</a>
-            </nav>
-            <div class="menu-icon"><i class="material-icons">dehaze</i></div>
+            <div class="topnav" id="myTopnav">
+                <nav>
+                   <a href="https://jleiite.github.io/Checkpoint2/" target="_blank">Home</a>
+                   <a href="#items">Itens</a>
+                   <a href="#sobre">Sobre nós</a>
+                   <a href="login.html">Login</a>
+                </nav>
+                <a class="icon" href="javascript:void(0);" onclick="myFunction()"><i class="material-icons">dehaze</i></a>
+            </div>
         </div>
     </header>
     <div>
@@ -83,4 +85,16 @@
         </div>
         <span>2022 - Checkpoint 3</span>
     </footer>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 </body>
