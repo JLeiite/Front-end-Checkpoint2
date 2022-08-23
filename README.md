@@ -1,2 +1,2 @@
-# Checkpoint2
+# FrontEnd-Checkpoint2
 Atividade de checkpoint 2
