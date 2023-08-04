@@ -1,2 +1,2 @@
 # FrontEnd-Checkpoint2
-Atividade de checkpoint 2
+Entrega de CP2
